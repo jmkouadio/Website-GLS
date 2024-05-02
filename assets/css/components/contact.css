@@ -1,0 +1,88 @@
+@import url('../main.css');
+
+
+.about1{
+    padding: 10px;
+   
+    background: #fdfbfb; 
+   
+}
+
+.about1 .container 
+.msg {
+    color: yellow;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error {
+    background-color: #a00;
+}
+.success {
+    background-color: #060;
+}
+
+.notepad{
+    margin-top: 50px;
+}
+
+@media (max-width:765px){
+    *{
+        overflow-x: hidden;
+    }
+    
+}
+/* About End */
+
+
+
+
+
+
+@media (max-width:980px) and (max-width:1080px) {
+    *{
+        overflow-x: hidden;
+    }
+
+   
+    
+    
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .footer-col h4::before{
+        all: unset;
+    }
+}
+
+@media(max-width: 740px){
+    *{
+        overflow-x: hidden;
+    }
+   
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .footer-col h4::before{
+        all: unset;
+    }
+}
+
+@media(max-width: 555px){
+    *{
+        overflow-x: hidden;
+    }
+    .footer-col{
+        width: 100%;
+    }
+}
+
